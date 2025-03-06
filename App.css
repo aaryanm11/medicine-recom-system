@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Center alignment for main container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-color: #f3f4f6; Light gray background */
+  background-image: url('photo.jpg'); /* Path to background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+overflow-y: auto;
+overflow-x: auto;
+}
+
+/* Styling for main heading */
+.main-heading {
+  font-size: 1.875rem; /* Text size for a bold heading */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Chatbox container styling */
+.chatbox-container {
+  width: 100%;
+  max-width: 24rem; /* Limit max width */
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 500px; /* Fixed height for the chatbox */
+}
+
+/* Messages container styling */
+.messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+/* Bot and User message styling */
+.bot-message {
+  background-color: #ebf8ff;
+  text-align: left;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border-radius: 0.5rem;
+}
+
+.user-message {
+  background-color: #d1fae5;
+  text-align: right;
+  padding: 0.5rem;
+  margin: 0.25rem 0;
+  border-radius: 0.5rem;
+}
+
+/* Input container styling */
+.input-container {
+  display: flex;
+}
+
+.input-field {
+  flex-grow: 1;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem 0 0 0.375rem;
+  padding: 0.5rem;
+}
+
+.send-button {
+  padding: 0.5rem 1rem;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #4338ca;
+}
