@@ -5,12 +5,16 @@ This project is a Medicine Recommendation System that provides users with person
 
 Features - 
 Medicine Recommendations: Get personalized suggestions based on the selected medicine.
+
 Search by Medicine Name or Formula: Allows users to search for medications using the name or chemical formula to receive relevant recommendations.
+
 Alternative Medications: Provides suggestions for alternative medications based on the user’s input.
+
 Purchase Options: Recommends websites where the user can buy the medications.
 
 Technologies Used -
 OpenAI API: For generating personalized medicine recommendations and alternative suggestions.
+
 React: For building the frontend interface and handling user interactions.
 Python (Flask/Django): For backend processing and API development.
 JavaScript: For handling dynamic content and API calls on the frontend.
